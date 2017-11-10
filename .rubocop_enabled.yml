@@ -339,7 +339,7 @@ Style/OneLineConditional:
                  if/then/else/end constructs.
   Enabled: true
 
-Style/OpMethod:
+Naming/BinaryOperatorParameterName:
   Description: "When defining binary operators, name the argument other."
   Enabled: true
 
@@ -638,12 +638,6 @@ Lint/Eval:
 
 Lint/HandleExceptions:
   Description: "Don't suppress exception."
-  Enabled: true
-
-Lint/InvalidCharacterLiteral:
-  Description: >-
-                 Checks for invalid character literals with a non-escaped
-                 whitespace character.
   Enabled: true
 
 Lint/LiteralInCondition:
