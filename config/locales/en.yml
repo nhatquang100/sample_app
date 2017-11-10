@@ -30,4 +30,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  helpers:
+    application_controller:
+        tieude: "Ruby on Rails Tutorial Sample App"
