@@ -1,0 +1,4 @@
+vi:
+  helpers:
+    application_controller:
+        tieude: "lap trinh ruby on rails"
