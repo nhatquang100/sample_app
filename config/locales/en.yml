@@ -31,5 +31,5 @@
 
 en:
   helpers:
-    application_controller:
+    application_application_helper:
         tieude: "Ruby on Rails Tutorial Sample App"

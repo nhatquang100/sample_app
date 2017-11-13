@@ -2,8 +2,9 @@ module ApplicationHelper
   def hello
     render html: "hello, world!"
   end
+
   def full_title page_title = ""
-    base_title = t".tieude"
+    base_title = I18n.t ".tieude"
     if page_title.empty?
       base_title
     else
