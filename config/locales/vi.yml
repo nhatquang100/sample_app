@@ -1,2 +1,12 @@
 vi:
-        tieude: "lap trinh ruby on rails"
+  tieude: "Ruby on Rails"
+  controllers:
+    users_controller:
+      msg: "Register sucessfully!!!"
+      err: "No find ID!!"
+  views:
+    users:
+      new:
+        tt: "Signup"
+        con: "Confirmation"
+        button: "Create my account"
