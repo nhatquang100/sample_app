@@ -1,2 +1,7 @@
 vi:
-        tieude: "lap trinh ruby on rails"
+  tieude: "lap trinh ruby on rails"
+  regis: "Dang ky"
+  controllers:
+    users_controller:
+      msg: "Chuc mung ban dang ky thanh cong!!"
+      err: "Khong tim thay User, dang Ky nao!!"
