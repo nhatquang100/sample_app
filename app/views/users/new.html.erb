@@ -1,3 +1,24 @@
-<% provide(:title,"Signup") %>
-<h1><%= yield(:title)%></h1>
-<p>This will be a signup page for new users</p>
+<% provide :title, t("views.users.new.tt") %>
+<h1><%= t "views.users.new.tt"%></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user, url: signup_path do |f| %>
+      <%= render "shared/error_messages" %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name, class: "form-control" %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: "form-control" %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.label :password_confirmation, (t "views.users.new.con")%>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
+
+      <%= f.submit t "views.users.new.button", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
