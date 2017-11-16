@@ -6,3 +6,5 @@ password:
   min_length: 6
 gravatar:
   size: 80
+remember:
+  ischeck: "1"

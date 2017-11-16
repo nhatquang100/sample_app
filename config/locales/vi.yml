@@ -25,6 +25,7 @@ vi:
     sessions:
       new:
         ask:  "New users?"
+        ask2: "Remember me on this computer"
     layouts:
       header:
         profile: "Profile"
