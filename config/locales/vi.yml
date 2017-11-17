@@ -1,12 +1,32 @@
 vi:
+  home: "Home"
+  help: "Help"
+  user: "Users"
+  signup: "Signup"
+  login: "Login"
   tieude: "Ruby on Rails"
+  button: "Sign up now!"
+  contact: "Contact"
+  about: "About"
+  new: "News"
+  logout: "Log out"
+  login: "Login"
   controllers:
     users_controller:
       msg: "Register sucessfully!!!"
       err: "No find ID!!"
+    sessions_controller:
+      err: "Invalid email/password combination"
   views:
     users:
       new:
-        tt: "Signup"
         con: "Confirmation"
         button: "Create my account"
+    sessions:
+      new:
+        ask:  "New users?"
+    layouts:
+      header:
+        profile: "Profile"
+        setting: "Settings"
+        account: "Account"
