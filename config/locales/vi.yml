@@ -1,33 +1,37 @@
 vi:
-  home: "Home"
-  help: "Help"
-  user: "Users"
-  signup: "Signup"
-  login: "Login"
-  tieude: "Ruby on Rails"
-  button: "Sign up now!"
-  contact: "Contact"
-  about: "About"
-  new: "News"
-  logout: "Log out"
-  login: "Login"
+  home: "Trang chu"
+  help: "Giup do"
+  user: "Nguoi dung"
+  signup: "Dang ki"
+  login: "Dang nhap"
+  tieude: "Hoc lap trinh ruby on rails"
+  button: "Dang ky ngay!"
+  contact: "Lien He"
+  about: "Moi Thu"
+  new: "Tao moi nguoi dung"
+  logout: "Dang xuat"
+  con: "Nhap lai mat khau"
+  change: "Luu thay doi"
   controllers:
     users_controller:
-      msg: "Register sucessfully!!!"
-      err: "No find ID!!"
+      msg: "Chuc mung ban dang ky thanh cong!!!"
+      err: "Khong tim thay ID nguoi dung!!"
     sessions_controller:
-      err: "Invalid email/password combination"
+      err: "email hoac passowrd khong hop le!!"
   views:
     users:
       new:
-        con: "Confirmation"
-        button: "Create my account"
+        btnnew: "Tao tai khoan"
+      edit:
+        title: "Chinh sua"
+        h1: "Cap nhat tai khoan"
+        btnedit: "Luu thay doi"
     sessions:
       new:
-        ask:  "New users?"
-        ask2: "Remember me on this computer"
+        ask:  "Tao nguoi dung moi"
+        ask2: "Ghi nho dang nhap"
     layouts:
       header:
-        profile: "Profile"
-        setting: "Settings"
-        account: "Account"
+        profile: "Thong tin cua toi"
+        setting: "Cai dat"
+        account: "Tai khoan"

@@ -8,3 +8,5 @@ gravatar:
   size: 80
 remember:
   ischeck: "1"
+number:
+  one: 1
