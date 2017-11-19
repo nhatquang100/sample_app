@@ -1,11 +1,12 @@
 en:
+  hi: "Hi"
   title: "Ruby on Rails Tutorial Sample App"
   home: "Home"
   help: "Help"
   user: "Users"
   signup: "Signup"
   login: "Login"
-  tieude: "Ruby on Rails"
+  titlemail: "Ruby on Rails"
   button: "Sign up now!"
   contact: "Contact"
   about: "About"
@@ -14,6 +15,8 @@ en:
   login: "Login"
   con: "Confirmation"
   change: "Changes"
+  activeemail: "Welcome to the Sample App! Click on the link below to activate your account"
+  active: "Activate"
   controllers:
     users_controller:
       msg: "Register sucessfully!!!"
@@ -21,8 +24,13 @@ en:
       err2: "Please log in."
       msgdel: "User deleted"
       errdel: "Can't deleted user!!!"
+      checkmail: "Please check your email to activate your account."
     sessions_controller:
       err: "Invalid email/password combination"
+      mes1: "Account not activated. Check your email for the activation link."
+    account_activations_controller:
+      msg:  "Account activated!"
+      err: "Invalid activation link"
   views:
     users:
       new:
@@ -46,3 +54,11 @@ en:
         profile: "Profile"
         setting: "Settings"
         account: "Account"
+    user_mailer:
+      password_reset:
+        h1: "User#password_reset"
+        find: "find me in"
+  mailers:
+    user_mailer:
+      subj: "Account activation"
+      hi: "Hi"
