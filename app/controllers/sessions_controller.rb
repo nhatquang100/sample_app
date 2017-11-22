@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
   end
 
   def inactivated_user
-    message  = t "controllers.sessions_controller.mes1"
+    message = t "controllers.sessions_controller.mes1"
     flash[:warning] = message
     redirect_to root_url
   end

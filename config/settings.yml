@@ -10,5 +10,6 @@ remember:
   ischeck: "1"
 number:
   one: 1
+  two: 2
 mail:
   from: "vonhatquang100@gmail.com"
