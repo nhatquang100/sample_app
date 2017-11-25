@@ -4,6 +4,8 @@ email:
   max_length: 255
 password:
   min_length: 6
+content:
+  max_length: 140
 gravatar:
   size: 80
 remember:
@@ -11,5 +13,10 @@ remember:
 number:
   one: 1
   two: 2
+  fifty: 50
+  five: 5
+  hundreds: 400
 mail:
   from: "vonhatquang100@gmail.com"
+picture:
+  exten: "image/jpeg,image/gif,image/png"
