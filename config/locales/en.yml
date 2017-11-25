@@ -20,6 +20,12 @@ en:
   submit: "Submit"
   passreset: "Reset password"
   err: "An error occurred"
+  errlogin: "please login!"
+  profile: "view my profile"
+  post: "micropost"
+  placeholder: "Compose new micropost..."
+  delete: "delete"
+  ask: "You Sure?"
   controllers:
     users_controller:
       msg: "Register sucessfully!!!"
@@ -40,7 +46,17 @@ en:
       mess1: "can't be empty"
       mess2: "Password has been reset."
       mess3:  "Password reset has expired."
+    microposts_controller:
+      create: "Micropost created!"
+      del: "Micropost deleted"
+      delfailed: "deleted no sucessfully!"
   views:
+    static_pages:
+      home:
+        h2: "This is the home page for the"
+        a1: "Ruby on Rails Tutorial"
+        a11: "sample application."
+        h3: "Post by Quang"
     users:
       new:
         btnnew: "Create my account"
@@ -54,6 +70,8 @@ en:
       user:
         delete: "Delete"
         ask: "Your sure delete?"
+      show:
+        h3: "Microposts (%{count})"
     sessions:
       new:
         ask:  "New users?"
@@ -75,8 +93,19 @@ en:
     password_resets:
       new:
         title: "Forgot password"
+    microposts:
+      micropost:
+        span: "Posted %{time} ago."
   mailers:
     user_mailer:
       subj: "Account activation"
       hi: "Hi"
       subj2: "Password reset"
+  uploaders:
+    picture_uploader:
+      errupload: "should be less than 5MB"
+  assets:
+    javascripts:
+      micropost_picture:
+        alert: 'Maximum file size is 5MB. Please choose a smaller file.'
+        change: 'change'
