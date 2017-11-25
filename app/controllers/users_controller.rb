@@ -3,7 +3,9 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
   before_action :find_user, except: %i(index new create)
-  def show; end
+  def show
+    @microposts = @user.microposts.postsort.paginate(page: params[:page])
+  end
 
   def index
     @users = User.daysort.paginate page: params[:page]
