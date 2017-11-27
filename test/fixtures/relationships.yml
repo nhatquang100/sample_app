@@ -1,0 +1,15 @@
+one:
+  follower: quang
+  followed: lana
+
+two:
+  follower: quang
+  followed: malory
+
+three:
+  follower: lana
+  followed: quang
+
+four:
+  follower: archer
+  followed: quang
