@@ -26,6 +26,9 @@ en:
   placeholder: "Compose new micropost..."
   delete: "delete"
   ask: "You Sure?"
+  follow: "Follow"
+  unfollow: "UnFollow"
+
   controllers:
     users_controller:
       msg: "Register sucessfully!!!"
@@ -34,6 +37,8 @@ en:
       msgdel: "User deleted"
       errdel: "Can't deleted user!!!"
       checkmail: "Please check your email to activate your account."
+      following: "following"
+      followers: "followers"
     sessions_controller:
       err: "Invalid email/password combination"
       mes1: "Account not activated. Check your email for the activation link."
@@ -50,6 +55,8 @@ en:
       create: "Micropost created!"
       del: "Micropost deleted"
       delfailed: "deleted no sucessfully!"
+    relationships_controller:
+      danger: "No Find User"
   views:
     static_pages:
       home:

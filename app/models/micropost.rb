@@ -6,6 +6,7 @@ class Micropost < ApplicationRecord
   validates :content, presence: true, length: {maximum: Settings.content.max_length}
   validate  :picture_size
   scope :feed_user, ->(id){where("user_id= ?", id)}
+  scope :feed_for, ->(user_id, following_ids){where(user_id: [user_id, *following_ids])}
 
   private
 
